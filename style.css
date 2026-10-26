@@ -1,0 +1,104 @@
+/* General Layout & Fonts */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 20px;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden; /* Clears floating children */
+}
+
+/* Header Styling */
+#header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    color: #88bdbc;
+    font-size: 28px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#header .subtitle {
+    color: #88bdbc;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+/* Sidebar Styling (Floating Left) */
+#sidebar {
+    float: left;
+    width: 200px;
+    background-color: #92cac5;
+    padding: 15px;
+    border: 1px solid #5d9e98;
+    box-sizing: border-box;
+}
+
+#sidebar h2 {
+    color: #256d67;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#sidebar ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#sidebar a {
+    color: #256d67;
+    text-decoration: underline;
+}
+
+/* Main Content Area (Floating Right) */
+#main-content {
+    float: right;
+    width: 550px;
+}
+
+/* Journal Entry Box Styling */
+.journal-entry {
+    background-color: #eaf4f3;
+    border: 1px solid #92cac5;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Clears floating images inside entry */
+}
+
+.journal-entry h2 {
+    color: #88bdbc;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #88bdbc;
+    padding-bottom: 5px;
+}
+
+.journal-entry .date {
+    font-weight: bold;
+}
+
+.entry-img {
+    float: right;
+    max-width: 150px;
+    height: auto;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+
+.journal-entry p {
+    line-height: 1.5;
+    font-size: 13px;
+    margin: 0;
+}
